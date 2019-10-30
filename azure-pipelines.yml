@@ -32,7 +32,7 @@ jobs:
         arguments: '--no-restore --configuration Release'
         projects: '**/*.csproj'
     - task: DotNetCoreCLI@2
-      displayNmae: 'Publish the project - Release'
+      displayName: 'Publish the project - Release'
       inputs:
         command: 'publish'
         projects: '**/*.csproj'
